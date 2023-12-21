@@ -129,3 +129,118 @@ img {
 .navbar-light .navbar-nav .nav-item.active .nav-link {
   background-color: #1f1f1f;
 }
+
+/* ///////// main section /////////// */
+
+.main-bg {
+  height: 810px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.main-section-brand {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95.69px;
+}
+
+.horizontal-line {
+  border: 2px;
+  width: 179px;
+  height: 2px; /* Товщина лінії */
+  background-color: var(--primery-text-color); /* Колір лінії */
+  margin: 0 auto;
+}
+
+.brand-text {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+}
+
+.container-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+.content-frame {
+  border: 4px solid var(--primery-text-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  width: 320px;
+}
+
+.main-section-brand,
+.horizontal-line,
+.brand-text {
+  margin: 0;
+}
+
+.text-container {
+  max-width: 730px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.text-main-s {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.new-collection {
+  padding-top: 93px;
+  padding-bottom: 93px;
+}
+
+.main-text-collection {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.horizontal-line-collection {
+  border: 1px;
+  width: 120px;
+  height: 1px;
+  background-color: var(--primery-text-color);
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-new-collection {
+  padding: 27px 22px 34px 23px;
+  border: none;
+  background-color: #191b1c;
+  margin-bottom: 25px;
+}
+
+.new-collection h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.new-collection h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.bg-img-collection {
+  background-image: url("./img/new-collection-img1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
