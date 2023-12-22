@@ -331,7 +331,7 @@ img {
 
 .new-arrival {
   margin-top: 120px;
-  margin-bottom: 125px;
+  margin-bottom: 85px;
 }
 
 .new-arrival hr {
@@ -353,4 +353,18 @@ img {
 .btn-c {
   top: 50%;
   left: 45%;
+}
+
+.new-arrival h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.new-arrival h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 40px;
 }
