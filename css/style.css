@@ -368,3 +368,159 @@ img {
   font-size: 16px;
   margin-bottom: 40px;
 }
+
+/* ======useful information======== */
+
+.useful-information {
+  margin-top: 64px;
+}
+
+.img-col-i {
+  height: 100%;
+  width: 95%;
+}
+
+.info-con {
+  margin: 0 auto;
+  margin-top: 53px;
+  margin-bottom: 130px;
+  max-width: 628px;
+  padding: 10px;
+}
+
+.info-con-title {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 10%;
+  margin-bottom: 14px;
+}
+
+.info-con-text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 39px;
+  max-width: 628px;
+}
+
+.info-con-tag {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 10%;
+  margin-top: 24px;
+}
+
+@media (max-width: 1200px) {
+  .img-col-i {
+    width: 100%;
+    text-align: center;
+  }
+  .info-con {
+    text-align: center;
+  }
+  .info-con-text {
+    margin: 0 auto;
+    margin-bottom: 39px;
+    max-width: 560px;
+  }
+}
+
+/* ======partners======== */
+
+.partners {
+  margin-top: 66px;
+  margin-bottom: 106px;
+}
+
+.swiper-wrapper {
+  padding: 30px;
+  min-height: 100%;
+}
+
+.swiper-container {
+  padding: 30px 0 60px 0;
+  position: relative;
+}
+
+.swiper-img {
+  text-align: center;
+}
+
+.swiper-img img {
+  max-width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
+  color: var(--secondary-text-color);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--secondary-text-color);
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primery-text-color);
+}
+
+/* =======about company======= */
+
+.footer-bg {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.about-company-container {
+  padding-top: 80px;
+  padding-bottom: 67px;
+}
+
+.about-company-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.about-company-text {
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 350px;
+}
+
+.btn-category {
+  background-color: var(--primery-bg-color);
+  padding: 10px 20px;
+  margin-top: 27px;
+  border-radius: 1px;
+}
+
+.input-con {
+  margin-top: 27px;
+  max-width: 210px;
+  border-radius: 1px;
+}
+
+@media (max-width: 1200px) {
+  .company {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/* ==== footer====== */
+
+.footer {
+  height: 20px;
+}
+
+.footer p,
+a {
+  font-weight: 400;
+  font-size: 12px;
+}
