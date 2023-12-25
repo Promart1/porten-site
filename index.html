@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTEN</title>
+    <link rel="icon" href="./img/svg/favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna"
       rel="stylesheet"
@@ -21,7 +22,13 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -36,10 +43,12 @@
                   href="./img/svg/symbol-defs.svg#icon-eva_phone-outline"
                 ></use>
               </svg>
-              <p class="contact-info-text">8 (812) 123-45-67</p>
-              <p class="contact-info-text">|</p>
+              <a class="contact-info-text" href="8 (812) 123-45-67"
+                >8 (812) 123-45-67</a
+              >
+              <span class="contact-info-text">|</span>
               <p class="contact-info-text">Працюємо 7 днів на тиждень</p>
-              <p class="contact-info-text">|</p>
+              <span class="contact-info-text">|</span>
               <p class="contact-info-text">9:00 — 18:00</p>
             </div>
             <div class="contact-info">
@@ -48,7 +57,7 @@
                   href="./img/svg/symbol-defs.svg#icon-ic_sharp-log-in"
                 ></use>
               </svg>
-              <p class="login-info-text">Вхід</p>
+              <a class="login-info-text">Вхід</a>
               <p class="login-info-text">/</p>
               <p class="login-info-text">Реєстрація</p>
             </div>
@@ -194,15 +203,32 @@
                 alt="Man"
               />
             </div>
-           
+
             <div class="col-xxl-7 col-lg-12 col-sm-12 sec-col">
-                <div class="sec-new-col">
-                <h2 class="text-center text-uppercase secondary-text-collection-s">
+              <div class="sec-new-col">
+                <h2
+                  class="text-center text-uppercase secondary-text-collection-s"
+                >
                   колекція 2018
                 </h2>
                 <hr class="horizontal-line-collection-sec-s" />
                 <div class="text-container-col-sec">
-                <p class="text-justify text-center text-secondary-sec">Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися нижню губу володаря аксесуара, а щоки - роздутися?</p>
+                  <p class="text-justify text-center text-secondary-sec">
+                    Годинники як інструмент визначення часу давно і надійно
+                    прижилися в людській реальності. Романтики та прагматики,
+                    художники та бізнесмени, чоловіки та жінки, дорослі та діти
+                    - всі хочуть знати котра година в потрібний момент. Скільки
+                    хвилин пройшло, скільки залишилося, а ще - які саме моделі і
+                    якого бренду виблискують на руці у друга, коханої або
+                    конкурента. З давніх часів, коли людина здогадався втикнути
+                    в землю паличку та іншою поличкою взявся відміряти рівні
+                    проміжки часу на піску, не вщухають суперечки - яким
+                    повинний бути годинник? Наручним, або настільним, або
+                    настінним, або, нарешті, підлоговим? Чому ж кожен діамантик
+                    на безеле або шестерінка в механізмі незмінно змушують
+                    гордовито випнутися нижню губу володаря аксесуара, а щоки -
+                    роздутися?
+                  </p>
                 </div>
                 <div class="button-container-s d-flex justify-content-center">
                   <button class="btn btn-outline-light text-uppercase btn-text">
@@ -211,364 +237,382 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New arrival -->
+
+      <section class="new-arrival">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center text-uppercase main-text-collection-s">
+                Нові надходження
+              </h2>
+              <hr class="horizontal-line-collection-sec-s" />
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/coll2.png"
+                class="img-fluid img-new-collection"
+                alt="Carl von Zeyten"
+              />
+              <h4>Carl von Zeyten</h4>
+              <h5>16 500 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/coll3.png"
+                class="img-fluid img-new-collection"
+                alt="JORD AR5905"
+              />
+              <h4>JORD AR5905</h4>
+              <h5>65 000 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/a3.png"
+                class="img-fluid img-new-collection"
+                alt="Emporio Armani Sportivo"
+              />
+              <h4>Emporio Armani Sportivo</h4>
+              <h5>165 000 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/a4.png"
+                class="img-fluid img-new-collection"
+                alt="Rolex Oyster Perpetua"
+              />
+              <h4>Rolex Oyster Perpetual</h4>
+              <h5>280 000 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/coll1.png"
+                class="img-fluid img-new-collection"
+                alt="Louis XVI ATHOS"
+              />
+              <h4>Louis XVI ATHOS</h4>
+              <h5>65 000 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/a6.png"
+                class="img-fluid img-new-collection"
+                alt="U-Boat Italo Fontana"
+              />
+              <h4>U-Boat Italo Fontana</h4>
+              <h5>18 700 грн</h5>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
+              <img
+                src="./img/a7.png"
+                class="img-fluid img-new-collection-mb"
+                alt="Gucci Men's G"
+              />
+              <h4>Gucci Men's G</h4>
+              <h5>38 500 грн</h5>
+            </div>
+            <div
+              class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce position-relative"
+            >
+              <img
+                src="./img/coll3.png"
+                class="img-fluid img-new-collection blurred-image"
+                alt="Louis XVI ATHOS"
+              />
+              <div
+                class="button-container btn-c d-flex position-absolute translate-middle"
+              >
+                <button
+                  class="btn btn-outline-light text-uppercase btn-text btn-bl"
+                >
+                  показати всі
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-<!-- New arrival -->
+      <!-- useful information -->
 
-<section class="new-arrival">
-    <div class="container">
-        <div class="row">
+      <section class="useful-information">
+        <div class="container-fluid">
+          <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center text-uppercase main-text-collection-s">
-                  Нові надходження
-                </h2>
+              <h2 class="text-center text-uppercase main-text-collection-s">
+                Статті та корисна інформація
+              </h2>
               <hr class="horizontal-line-collection-sec-s" />
             </div>
-        </div>
-
-        <div class="row text-center">
-            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/coll2.png"
-                    class="img-fluid img-new-collection"
-                    alt="Carl von Zeyten"
-                  />
-                  <h4>Carl von Zeyten</h4>
-                  <h5>16 500 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/coll3.png"
-                    class="img-fluid img-new-collection"
-                    alt="JORD AR5905"
-                  />
-                  <h4>JORD AR5905</h4>
-                  <h5>65 000 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/a3.png"
-                    class="img-fluid img-new-collection"
-                    alt="Emporio Armani Sportivo"
-                  />
-                  <h4>Emporio Armani Sportivo</h4>
-                  <h5>165 000 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/a4.png"
-                    class="img-fluid img-new-collection"
-                    alt="Rolex Oyster Perpetua"
-                  />
-                  <h4>Rolex Oyster Perpetual</h4>
-                  <h5>280 000 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/coll1.png"
-                    class="img-fluid img-new-collection"
-                    alt="Louis XVI ATHOS"
-                  />
-                  <h4>Louis XVI ATHOS</h4>
-                  <h5>65 000 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/a6.png"
-                    class="img-fluid img-new-collection"
-                    alt="U-Boat Italo Fontana"
-                  />
-                  <h4>U-Boat Italo Fontana</h4>
-                  <h5>18 700 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce">
-                <img
-                    src="./img/a7.png"
-                    class="img-fluid img-new-collection-mb"
-                    alt="Gucci Men's G"
-                  />
-                  <h4>Gucci Men's G</h4>
-                  <h5>38 500 грн</h5>
-                </div>
-             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 text-ce position-relative">
-                
-                <img
-                    src="./img/coll3.png"
-                    class="img-fluid img-new-collection blurred-image"
-                    alt="Louis XVI ATHOS"
-                  />
-                  <div class="button-container btn-c d-flex position-absolute translate-middle">
-                  <button class="btn btn-outline-light text-uppercase btn-text">
-                    показати всі
-                  </button>
-                  
-                </div>
-                </div>
-        </div>
-    </div>
-</section>
-
-<!-- useful information -->
-
-<section class="useful-information">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12">
-                <h2 class="text-center text-uppercase main-text-collection-s">
-                  Статті та корисна інформація
-                </h2>
-              <hr class="horizontal-line-collection-sec-s" />
-            </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-7 col-md-12 p-0 mb-4">
-        <img
+          </div>
+          <div class="row">
+            <div class="col-xl-7 col-md-12 p-0 mb-4">
+              <img
                 src="./img/info1.png"
                 class="img-fluid img-col-i img-col-s"
                 alt="Man"
               />
-      </div>
-      <div class="col-xl-5 col-md-12 mb-4">
-        <div class="info-con">
-<h4 class="info-con-title text-uppercase">ROGER DUBUIS. ЧАСТИНА 1</h4>
-<p class="info-con-text">Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників компанії.</p>
-<div class="row">
-  <div class="col-6">
-    <button class="btn btn-outline-light text-uppercase btn-text">
-     читати
-    </button>
-  </div>
-  <div class="col-6 text-end">
-      <span class="badge info-con-tag p-0">#ЕКСКЛЮЗИВ</span>
-      <span class="badge info-con-tag p-0">#ПРОБРЕНД</span>
-    </div>
-</div>
-</div>
-      </div>
+            </div>
+            <div class="col-xl-5 col-md-12 mb-4">
+              <div class="info-con">
+                <h4 class="info-con-title text-uppercase">
+                  ROGER DUBUIS. ЧАСТИНА 1
+                </h4>
+                <p class="info-con-text">
+                  Цей чемпіон «гіперхорології» став синонімом надмірності й
+                  завдяки своїй радикальній скелетонізованій архітектурі
+                  неодноразово демонструє пристрасть до годинного вуайєризму. У
+                  цій серії з чотирьох статей описується нещодавня подорож на
+                  мануфактуру, де можна було спостерігати за виготовленням та
+                  оздобленням деталей, а також за збіркою та регулюванням
+                  годинників компанії.
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <button
+                      class="btn btn-outline-light text-uppercase btn-text"
+                    >
+                      читати
+                    </button>
+                  </div>
+                  <div class="col-6 text-end">
+                    <span class="badge info-con-tag p-0">#ЕКСКЛЮЗИВ</span>
+                    <span class="badge info-con-tag p-0">#ПРОБРЕНД</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </div>
-
-    <div class="row">
-      <div class="col-xl-7 col-md-12 p-0 mb-4">
-        <img
+          <div class="row">
+            <div class="col-xl-7 col-md-12 p-0 mb-4">
+              <img
                 src="./img/info2.png"
                 class="img-fluid img-col-i img-col-s"
                 alt="Man"
               />
-      </div>
-      <div class="col-xl-5 col-md-12 mb-4">
-        <div class="info-con">
-<h4 class="info-con-title text-uppercase">ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h4>
-<p class="info-con-text">Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.</p>
-<div class="row">
-  <div class="col-6">
-    <button class="btn btn-outline-light text-uppercase btn-text">
-     читати
-    </button>
-  </div>
-  <div class="col-6 text-end">
-      <span class="badge info-con-tag p-0">#ЕКСКЛЮЗИВ</span>
-      <span class="badge info-con-tag p-0">#ІСТОРІЯ</span>
-    </div>
-</div>
-</div>
-      </div>
-    </div>
+            </div>
+            <div class="col-xl-5 col-md-12 mb-4">
+              <div class="info-con">
+                <h4 class="info-con-title text-uppercase">
+                  ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1
+                </h4>
+                <p class="info-con-text">
+                  Історія люксових годинників зародилася дуже давно, вона веде
+                  відлік із часів перших годинників у світі. Тоді годинник був
+                  розкішшю, яку могла собі дозволити лише найвища еліта
+                  суспільства. Навіть не всім, хто має титул і великі гроші,
+                  могли виготовити цей розкішний аксесуар. Власне, з того часу
+                  мало що змінилося.
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <button
+                      class="btn btn-outline-light text-uppercase btn-text"
+                    >
+                      читати
+                    </button>
+                  </div>
+                  <div class="col-6 text-end">
+                    <span class="badge info-con-tag p-0">#ЕКСКЛЮЗИВ</span>
+                    <span class="badge info-con-tag p-0">#ІСТОРІЯ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<div class="row">
-      <div class="col-xl-7 col-md-12 p-0 mb-4">
-        <img
+          <div class="row">
+            <div class="col-xl-7 col-md-12 p-0 mb-4">
+              <img
                 src="./img/info3.png"
                 class="img-fluid img-col-i img-col-s"
                 alt="Man"
               />
-      </div>
-      <div class="col-xl-5 col-md-12 mb-4">
-        <div class="info-con">
-<h4 class="info-con-title text-uppercase">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h4>
-<p class="info-con-text">На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.</p>
-<div class="row">
-  <div class="col-6">
-    <button class="btn btn-outline-light text-uppercase btn-text">
-     читати
-    </button>
-  </div>
-  <div class="col-6 text-end">
-      <span class="badge info-con-tag p-0">#ХРОНОГРАФ</span>
-      <span class="badge info-con-tag p-0">#TISSOT</span>
-      <span class="badge info-con-tag p-0">#ОГЛЯДГОДИННИКIВ</span>
-    </div>
-</div>
-</div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- partners -->
-
-<!-- <section class="partners">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="text-center text-uppercase main-text-collection-s">
-            Наші партнери
-          </h2>
-          <hr class="horizontal-line-collection-sec-s" />
-        </div>
-      </div>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./img/part1.png" alt="Partner 1">
-          </div>
-          <div class="swiper-slide">
-            <img src="./img/part2.png" alt="Partner 2">
-          </div>
-          <div class="swiper-slide">
-            <img src="./img/part3.png" alt="Partner 3">
-          </div>
-          <div class="swiper-slide">
-            <img src="./img/part4.png" alt="Partner 4">
-          </div>
-        </div>
-      
-       <div class="swiper-button-next swiper-button-white"></div>
-<div class="swiper-button-prev swiper-button-white"></div>
-<div class="swiper-pagination swiper-pagination-white"></div>
-      </div>
-    </div>
-  </section> -->
-
- <section class="partners">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="text-center text-uppercase main-text-collection-s">
-            Наші партнери
-          </h2>
-          <hr class="horizontal-line-collection-sec-s" />
-        </div>
-      </div>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="swiper-img">
-              <img
-                src="./img/part1.png"
-                class=""
-                alt="Man"
-              />
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-img">
-              <img
-                src="./img/part2.png"
-                class=""
-                alt="Man"
-              />
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-img">
-              <img
-                src="./img/part3.png"
-                class=""
-                alt="Man"
-              />
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-img">
-              <img
-                src="./img/part4.png"
-                class=""
-                alt="Man"
-              />
+            <div class="col-xl-5 col-md-12 mb-4">
+              <div class="info-con">
+                <h4 class="info-con-title text-uppercase">
+                  ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH
+                </h4>
+                <p class="info-con-text">
+                  На початку цього року компанія Tissot оновила модель PRS 516
+                  Automatic Chronograph, але не пішла вінтажним шляхом. На
+                  противагу колекції Heritage із переконливими рімейками
+                  вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим
+                  настроєм, безліччю деталей автоспорту й за чудовою ціною.
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <button
+                      class="btn btn-outline-light text-uppercase btn-text"
+                    >
+                      читати
+                    </button>
+                  </div>
+                  <div class="col-6 text-end">
+                    <span class="badge info-con-tag p-0">#ХРОНОГРАФ</span>
+                    <span class="badge info-con-tag p-0">#TISSOT</span>
+                    <span class="badge info-con-tag p-0">#ОГЛЯДГОДИННИКIВ</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      
-   
-      
-           <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
-          <div class="swiper-pagination"></div>
-      </div>
-     
-    </div>
-  </section>
+      </section>
 
-<section class="about-company">
-  <div
+      <!-- partners -->
+
+      <section class="partners">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center text-uppercase main-text-collection-s">
+                Наші партнери
+              </h2>
+              <hr class="horizontal-line-collection-sec-s" />
+            </div>
+          </div>
+          <div class="swiper sample-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/part1.png" alt="Coco fine jewerly" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/part2.png" alt="Rolex" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/part3.png" alt="Breguet" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/part4.png" alt="Haven" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------about company------- -->
+      <section class="about-company">
+        <div
           class="bg footer-bg container-fluid"
           style="background-image: url('./img/footer-bg.png')"
         >
-        <div class="container about-company-container">
-          <div class="row">
-            <div class="col-xl-4 col-lg-12 company">
-          <h4 class="about-company-title text-uppercase">про компанію</h4>
-          <p class="about-company-text">Компанія PORTEN – лідер на українському ринку годинників. На цей час ми об'єднуємо більше сорока магазинів у різних куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова мережа PORTEN – офіційний дистриб'ютор більше 50 найвідоміших годинникових марок, починаючи від японської CASIO, закінчуючи швейцарськими LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується лише годинниками – в інтернет-магазині та бутіках мережі ви знайдете прекрасні ювелірні вироби від таких іменитих брендів, як SWAROVSKI и CHRISTINA.</p>    
-        </div>
-           <div class="col-xl-4 col-lg-6 col-sm-12 company">
-            <h4 class="about-company-title text-uppercase">Категорії</h4>
-            <div class="row">
-        
-              <div class="col-lg-12 mb-3 d-flex justify-content gap-2">
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">годинники</button>
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">запонки</button>
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">ремені</button>
-    </div>
-           </div>
+          <div class="container about-company-container">
+            <div class="row justify-content-lg-center">
+              <div class="col-xl-4 col-lg-12 company">
+                <h4 class="about-company-title text-uppercase title-com">
+                  про компанію
+                </h4>
+                <p class="about-company-text about-company-text-lg">
+                  Компанія PORTEN – лідер на українському ринку годинників. На
+                  цей час ми об'єднуємо більше сорока магазинів у різних
+                  куточках України та інтернет-магазин, який став першим в
+                  нашому сегменті ринку. Торгова мережа PORTEN – офіційний
+                  дистриб'ютор більше 50 найвідоміших годинникових марок,
+                  починаючи від японської CASIO, закінчуючи швейцарськими
+                  LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується
+                  лише годинниками – в інтернет-магазині та бутіках мережі ви
+                  знайдете прекрасні ювелірні вироби від таких іменитих брендів,
+                  як SWAROVSKI и CHRISTINA.
+                </p>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-12 company">
+                <h4 class="about-company-title text-uppercase">Категорії</h4>
+                <div class="row">
+                  <div class="col-lg-12 mb-3 d-flex gap-2">
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      годинники
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      запонки
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      ремені
+                    </button>
+                  </div>
+                </div>
 
-<div class="row">
-              <div class="col-lg-12 mb-3 d-flex justify-content gap-2">
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">ювелірні вироби</button>
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">на замовлення</button>
-        
-    </div>
-           </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-3 d-flex gap-2">
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      ювелірні вироби
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      на замовлення
+                    </button>
+                  </div>
+                </div>
 
-<div class="row">
-              <div class="col-lg-12 mb-3 d-flex justify-content gap-2">
-        <button type="button" class="btn btn-dark btn-category mt-lg-0 mt-sm-0">браслети</button>
-    </div>
-           </div>
-           </div>
-    
-           <div class="col-xl-4 col-lg-6 col-sm-12 company">
-            <h4 class="about-company-title text-uppercase">розсилка</h4>
-           <p class="about-company-text">Компанія пропонує тільки оригінальну продукцію від найвідоміших світових брендів за найкращою ціною. Ми дбаємо про комфорт наших покупців і постійно розширюємо можливості сервісного обслуговування.</p>
-          <div class="d-flex justify-content">
-  <input type="text" class="form-control input-con"  placeholder="Ваша пошта">
-<button type="button" class="btn btn-dark btn-category text-uppercase">підписатися</button>
-</div>          
-</div>
+                <div class="row">
+                  <div class="col-lg-12 mb-3 d-flex gap-2">
+                    <button
+                      type="button"
+                      class="btn btn-dark btn-category mt-lg-0 mt-sm-0"
+                    >
+                      браслети
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 col-md-12 company">
+                <h4 class="about-company-title text-uppercase">розсилка</h4>
+                <p class="about-company-text">
+                  Компанія пропонує тільки оригінальну продукцію від
+                  найвідоміших світових брендів за найкращою ціною. Ми дбаємо
+                  про комфорт наших покупців і постійно розширюємо можливості
+                  сервісного обслуговування.
+                </p>
+                <div class="d-flex justify-content">
+                  <input
+                    type="text"
+                    class="form-control input-con"
+                    placeholder="Ваша пошта"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-category btn-category-l text-uppercase"
+                  >
+                    підписатися
+                  </button>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-between footer">
+                  <p>&copy; 2022 PORTEN, Інтернет-магазин годинників</p>
+                  <a> Угода користувача </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-</section>
-
-<section class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-between">
-        <p>
-           &copy; 2022 PORTEN, Інтернет-магазин годинників
-        </p>
-        <a>
-          Угода користувача
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script
@@ -577,20 +621,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
-  </script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>

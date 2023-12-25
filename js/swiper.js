@@ -1,12 +1,13 @@
-var swiper = new Swiper(".swiper-container", {
-  slidesPerView: 1,
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+const swiper = new Swiper(".sample-slider", {
+  loop: true,
+  autoplay: {
+    delay: 2000,
   },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
